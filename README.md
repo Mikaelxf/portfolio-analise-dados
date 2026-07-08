@@ -27,8 +27,5 @@ As principais etapas abordadas neste projeto incluem:
 ## 📂 Estrutura do Repositório
 
 ```text
-├── data/               # Pasta contendo a base de dados (ex: dados_vendas.csv)
-├── notebooks/          # Jupyter Notebooks com os códigos passo a passo
-│   └── analise_dados.ipynb
-├── README.md           # Documentação do projeto
-└── requirements.txt    # Dependências do projeto
+├── DADOS_COM_PANDAS.ipynb  # Notebook principal contendo a geração de dados e a análise
+└── README.md               # Documentação do projeto
