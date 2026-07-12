@@ -22,6 +22,6 @@ Projeto focado em extrair métricas gerenciais a partir de uma base de empresas 
 * **Ambientes:** Jupyter Notebook, Google Colab, VS Code
 
 ## 🚀 Como Executar
-1. Clone este repositório: `git clone https://github.com/Mikaelxf/CONSULTA-DE-DADOS-COM-PANDAS.git`
+1. Clone este repositório: `git clone https://github.com/Mikaelxf/portfolio-analise-dados.git`
 2. Instale as bibliotecas necessárias: `pip install pandas matplotlib`
 3. Abra os arquivos `.ipynb` em seu ambiente de preferência (Colab, Jupyter ou VS Code) e execute as células na ordem para visualizar as análises e os gráficos.
