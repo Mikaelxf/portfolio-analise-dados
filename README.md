@@ -10,7 +10,7 @@ Este repositório concentra meus projetos práticos de análise de dados utiliza
 Um script focado na operação financeira. Ele automatiza o cálculo de faturamento de combustíveis e analisa a performance por tipo de produto e turno de trabalho.
 * **Técnicas aplicadas:** Estruturação de Dicionários, DataFrames, Agrupamento (`groupby`), Geração de Gráficos Financeiros com Matplotlib e Lógica de Negócios.
 
-### 2. Análise Corporativa de Empresas (`DADOS_COM_PANDAS.ipynb`)
+### 2. Análise Corporativa de Empresas (`analise_corporativa_empresas.ipynb`)
 Projeto focado em extrair métricas gerenciais a partir de uma base de empresas (quantidade de funcionários, ramo de atuação, faturamento e lucro anual).
 * **Técnicas aplicadas:** Conversão de tipos de dados, Filtros Condicionais avançados, Cálculo de Relação Faturamento/Lucro e Análise Exploratória.
 
