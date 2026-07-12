@@ -1,75 +1,27 @@
-# Consulta de Dados com Pandas
+# 📊 Portfólio de Análise de Dados com Pandas
 
-Este repositório contém um projeto prático de análise de dados utilizando Python e a biblioteca Pandas. O objetivo é demonstrar conceitos fundamentais de manipulação, tratamento e consulta de dados a partir de uma base fictícia de empresas.
+Este repositório concentra meus projetos práticos de análise de dados utilizando Python e a biblioteca Pandas. O objetivo é demonstrar a aplicação de fundamentos de manipulação, tratamento e visualização de dados para resolver diferentes problemas de negócios.
 
-## Sobre o Projeto
+---
 
-O projeto simula um cenário simples de análise de negócios, no qual os dados são criados diretamente no código para facilitar a reprodução do estudo.
+## 📂 Projetos Desenvolvidos
 
-A análise trabalha com informações como quantidade de funcionários, ramo de atuação, tempo de mercado, faturamento anual, avaliação dos funcionários e lucro anual.
+### 1. Automação e Faturamento de Pista (`analise_faturamento_pista.ipynb`)
+Um script focado na operação financeira. Ele automatiza o cálculo de faturamento de combustíveis e analisa a performance por tipo de produto e turno de trabalho.
+* **Técnicas aplicadas:** Estruturação de Dicionários, DataFrames, Agrupamento (`groupby`), Geração de Gráficos Financeiros com Matplotlib e Lógica de Negócios.
 
-As principais etapas abordadas incluem:
+### 2. Análise Corporativa de Empresas (`DADOS_COM_PANDAS.ipynb`)
+Projeto focado em extrair métricas gerenciais a partir de uma base de empresas (quantidade de funcionários, ramo de atuação, faturamento e lucro anual).
+* **Técnicas aplicadas:** Conversão de tipos de dados, Filtros Condicionais avançados, Cálculo de Relação Faturamento/Lucro e Análise Exploratória.
 
-- Criação de uma base de dados sintética
-- Construção de um DataFrame com Pandas
-- Conversão de tipos de dados
-- Filtros condicionais em colunas específicas
-- Cálculo de métricas simples
-- Extração de informações relevantes para análise empresarial
+---
 
-## Tecnologias e Ferramentas
+## 💻 Tecnologias e Ferramentas
+* **Linguagem:** Python 3
+* **Bibliotecas:** Pandas, Matplotlib
+* **Ambientes:** Jupyter Notebook, Google Colab, VS Code
 
-- Python 3
-- Pandas
-- Jupyter Notebook
-- VS Code
-
-## Análises Realizadas
-
-- Visualização inicial da base de dados
-- Conversão de colunas numéricas armazenadas como texto
-- Filtro de empresas com 500 ou mais funcionários
-- Cálculo da relação entre faturamento anual e lucro anual
-- Identificação de empresas com relação faturamento/lucro maior que 10
-- Cálculo da média de avaliação dos funcionários
-- Contagem de empresas com lucro anual superior a R$ 500.000,00
-- Identificação de empresas do ramo de fast food
-
-## Estrutura do Repositório
-
-```text
-├── DADOS_COM_PANDAS.ipynb  # Notebook principal contendo a criação dos dados e as análises
-└── README.md               # Documentação do projeto
-```
-
-## Como Executar
-
-1. Clone este repositório:
-
-```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-```
-
-2. Instale a biblioteca necessária:
-
-```bash
-pip install pandas
-```
-
-3. Abra o arquivo `DADOS_COM_PANDAS.ipynb` em um dos ambientes abaixo:
-
-- Jupyter Notebook
-- Google Colab
-- VS Code com extensão para notebooks
-
-4. Execute as células na ordem para visualizar a criação da base, os tratamentos e os resultados das análises.
-
-## Objetivo de Aprendizado
-
-Este projeto foi desenvolvido com foco na prática dos fundamentos de análise de dados com Pandas.
-
-Ele demonstra habilidades iniciais importantes para quem está estudando dados, como criação de DataFrames, tratamento de tipos, aplicação de filtros e geração de métricas simples a partir de dados estruturados.
-
-## Observações
-
-A base de dados utilizada é fictícia e foi criada apenas para fins educacionais. Os valores não representam empresas reais.
+## 🚀 Como Executar
+1. Clone este repositório: `git clone https://github.com/Mikaelxf/CONSULTA-DE-DADOS-COM-PANDAS.git`
+2. Instale as bibliotecas necessárias: `pip install pandas matplotlib`
+3. Abra os arquivos `.ipynb` em seu ambiente de preferência (Colab, Jupyter ou VS Code) e execute as células na ordem para visualizar as análises e os gráficos.
